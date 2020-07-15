@@ -1,4 +1,5 @@
 #  statistics — Mathematical statistics functions
+#  docs - https://docs.python.org/3/library/statistics.html
 
 import statistics
 
@@ -28,6 +29,6 @@ statistics.quantiles()  # divide data into intervals with equal probability
 statistics.stdev([1,1.5,2,2.5,3,3.5,4,4.5,5])  #  result is 1.3693063937629153
 statistics.pstdev()  # population standard deviation of data
 
-pvariance()  # population variance of data
+statistics.pvariance()  # population variance of data
 
-variance()  # sample variance of data
+statistics.variance()  # sample variance of data
