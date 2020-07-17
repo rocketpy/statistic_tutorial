@@ -23,13 +23,15 @@ median_grouped()  #  median , or 50th percentile , of grouped data .  median_gro
 #  mode() method returns the most common data point in the list
 statistics.mode([2,5,3,2,8,3,9,4,2,5,6])  #  result is 2
 statistics.multimode()  # list of modes (most common values) of discrete or nomimal data , multimode('aabbbbccddddeeffffgg') , result is ['b', 'd', 'f']
-statistics.quantiles()  # divide data into intervals with equal probability
+statistics.quantiles()  # divide data into intervals with equal probability ,  https://docs.python.org/3/library/statistics.html#statistics.quantiles
 
 #  stdev() method calculates the standard deviation on a given sample in the form of a list
 statistics.stdev([1,1.5,2,2.5,3,3.5,4,4.5,5])  #  result is 1.3693063937629153
-statistics.pstdev()  # population standard deviation of data
+statistics.pstdev()  # population standard deviation of data  , pstdev([1.5, 2.5, 2.5, 2.75, 3.25, 4.75]) , result is 0.986893273527251
 
 statistics.pvariance()  # population variance of data
 pvariance([0.0, 0.25, 0.25, 1.25, 1.5, 1.75, 2.75, 3.25])  #  result is 1.25
 
 statistics.variance()  # sample variance of data
+variance([2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5])
+#  result is 1.3720238095238095
